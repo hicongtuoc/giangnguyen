@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For That One Girl</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+        }
+
+        .nav-link {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #2c3e50;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .nav-link h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .nav-link p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>For That One Girl</h1>
+        <div class="nav-links">
+            <a href="hello-there/" class="nav-link">
+                <h2>Hello There</h2>
+                <p>A special greeting just for you</p>
+            </a>
+            <a href="how-are-you-today/" class="nav-link">
+                <h2>How Are You Today?</h2>
+                <p>Check in on your day</p>
+            </a>
+            <a href="good-night/" class="nav-link">
+                <h2>Good Night</h2>
+                <p>Sweet dreams and good night wishes</p>
+            </a>
+            <a href="time-to-recharge/" class="nav-link">
+                <h2>Time to Recharge</h2>
+                <p>Take a break and relax</p>
+            </a>
+            <a href="will-you-date-me/" class="nav-link">
+                <h2>Will You Date Me?</h2>
+                <p>A special question for you</p>
+            </a>
+            <a href="sorry/" class="nav-link">
+                <h2>Sorry</h2>
+                <p>Heartfelt apologies</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html> 
